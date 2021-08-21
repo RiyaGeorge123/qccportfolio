@@ -1,0 +1,72 @@
+.header{
+background-color: blue;
+border: solid;
+border color: yellow;
+text-shadow: 2px 2px;
+color: red;
+}
+
+body {
+  margin: 0;
+  font-family: inherit;
+
+}
+
+h2 {
+  text-shadow: 1px 1px;
+  text-align: center;
+  text-decoration-style: wavy;
+  color: red;
+}
+
+
+p{
+  background-color: lightblue;
+  border: solid;
+  border-color: red;
+  font-size: 20px;
+}
+
+
+.column{
+  float: left;
+  width: 33.33%;
+  color: black;
+  text-rendering: geometricPrecision;
+}
+
+.row{
+color: pink;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: green;
+}
+
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+
+
+.topnav a:hover {
+  background-color: yellow;
+  color: orange;
+}
+
+
+
+
+.topnav a.active {
+  background-color: yellow;
+  color: orange;
+}

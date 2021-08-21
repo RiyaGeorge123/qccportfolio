@@ -1,0 +1,70 @@
+<html>
+  <head>
+
+  <title>
+    Lab 21: JQuery Animation
+  </title><style>
+#divv{
+width: 100px;
+height: 100px;
+position: relative; /* Box would not move with out being absolute or relative*/
+background-color: blue;
+border-radius: 5px;
+text-align: center;
+}
+</style><link rel="stylesheet" type="text/css" href="../../theme.css">
+<link rel="icon" type="image/png" href="../../Images/fav2.png">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+<script src="jQlabs.js" type="text/javascript"> </script>
+
+  </head>
+   <body>
+<center>
+  <br>
+  <h1>Lab : JQuery Animation  </h1>
+  <h3> 08/18/2021 </h3>
+  <hr>
+  <br><table width="65%">
+<tr>
+<td align="center">
+<p> Here, I will use JQuery to manipulate the CSS and make an animation to the box.
+  Click the button to try it!</p>
+</td>
+</tr>
+
+
+
+</table><div id="divv"></div><p>Click the Buttons!</p><hr>
+<br>
+ <button id="button1" onclick="move()">Move it!</button>
+ <button  id="button2" onclick="opa()">Change Opacity!</button>
+  <button id="button3" onclick="cir()">Into a Circle!</button>
+  <button id="button4" onclick="siz()">Change the Size!</button>
+
+</center>
+
+<script>
+$(document).ready(function(){
+
+$('#button1').click(function(){
+  $('#divv').animate({
+    left: '200px',
+    right: '200px'
+
+
+});
+});
+
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

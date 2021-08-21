@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <title>Lab 14</title>
+
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    
+    <script src="CSS/changecss.js" type="text/javascript"> </script>
+ </head>
+
+    <center>
+    <body>
+    <div class="header"> <!-- div for header-->
+    <h1>MY SUPER DOOPER WEBSITE</h1>
+    <P>SOME OF MY BEST WORK!!!!!</P>
+    </div>
+
+
+    <div class="topnav">
+      <a class="active" href="https://www.cnn.com/">CNN</a>
+      <a href="https://www.w3schools.com/">W3Schools</a>
+      <a href="https://www.schools.nyc.gov/schools/Q480">THE BEST HS ON EARTH </a>
+    </div>
+
+
+    <div class="row">
+    <div class="column">
+    <a href="https://www.w3schools.com/html/default.asp"><h2>HTML</h2></a>
+    <p>lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      when an unknown printer took a galley of type and scrambled it to make a type
+      specimen book. It has survived not only five centuries, but also the leap into
+      electronic typesetting, remaining essentially unchanged. It was popularised in
+      the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+      and more recently with desktop publishing software like Aldus PageMaker including
+      versions of Lorem Ipsum.</p>
+     </div>
+
+
+    <div class="column">
+    <h2>CSS</h2>
+    <h2>HTML Forms</h2>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <label for="birthday">DOB:</label><br>
+      <input type="text" id="birthday" name="birthday" value="MM/DD/YYYY"><br><br>
+      <label for="eyec">Eye Color:</label><br>
+      <input type="text" id="eyec" name="eyec" value="COLOR"><br><br>
+      <label for="superp">Super Power:</label><br>
+      <input type="text" id="superp" name="superp" value="POWER"><br><br>
+    </form>
+    <h4>These are my students.</h4>
+    </div>
+
+   <div class="column">
+   <h2>JavaScript</h2>
+    <p id="demo">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+   <button type="button" onclick="myfunction()">Click here to JS in action</button>
+
+   </div>
+
+  <button type="button" onclick="sty1()"> default</button>
+  <button type="button" onclick="sty2()"> Style 2</button>
+  <button type="button" onclick="sty3()"> Style 3</button>
+  <button type="button" onclick="sty4()"> Style 4</button>
+
+
+
+
+   </div> <!--closing row (larger box ) -->
+
+   <script>
+
+   function myfunction() {
+     document.getElementById("demo").innerHTML = "Students!";
+   }
+   </script>
+  </body>
+</center>
+</html>

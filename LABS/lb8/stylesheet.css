@@ -1,0 +1,60 @@
+body {
+  border: solid;
+  border-color: blue;
+  background-color: pink;
+  margin: 30px;
+  padding: 20px;
+  color: green;
+}
+
+h1{
+  color: black;
+}
+p{
+  color: purple;
+}
+
+.lorem{
+  font-size: 20px;
+  border-width: 10px;
+  border: dashed;
+  border-color: green;
+
+
+}
+
+#intro{
+  color: red;
+  background-color: green;
+  font-family: fantasy;
+  border: dashed;
+  border-color: yellow;
+      }
+
+img{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: solid;
+}
+
+
+
+table{
+  border: solid;
+  border-color: orange;
+
+}
+
+tr{
+  padding: 5px;
+  border: dotted;
+  border-color: yellow;
+  border-color: green;
+}
+
+#odd1{
+  border: solid;
+  border-color: green;
+  }
